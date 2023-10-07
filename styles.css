@@ -1,9 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+
+body{
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -35,8 +39,8 @@ nav{
 /* Search Bar */
 .stack2 input{
     background-color: rgb(247, 247, 247);
-    border-radius: 5px;
-    border: none;
+    border-radius: 5px 0px 0px 5px;
+    border: solid 0.3px rgb(221, 218, 218);
     padding-left: 10px;
     width: 431.19px;
     height:48px ;
@@ -44,7 +48,7 @@ nav{
 }
 
 .stack2 button{
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     border: solid rgb(36, 39, 44) 0.5px;
     background-color: rgb(36, 39, 44);
     height: 48px;
@@ -60,7 +64,7 @@ nav{
 }
 
 .stack3{
-    width: 406.66px;
+    width: 306.66px;
     margin-top: 10px;
     padding-top: 2px;
     height: 25.8px;
@@ -97,3 +101,31 @@ nav{
     height: 10px;
 }
 
+
+/* Bottom Nav */
+
+.bottom-nav{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    font-size: 14px;
+    margin-left: 5.1%;
+}
+.navlinks svg{
+    height: 10px;
+}
+
+.location{
+    color: grey;
+    display: flex;
+    width: 140px;
+    margin-right: 7%;
+}
