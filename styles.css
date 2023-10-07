@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+/* Navigation */
+nav{
+    height: 65px;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: solid 0.5px;
+    border-color: rgb(158, 161, 165);
+}
+
+
+.stack1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+.stack2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Search Bar */
+.stack2 input{
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    width: 431.19px;
+    height:48px ;
+
+}
+
+.stack2 button{
+    border-radius: 5px;
+    border: solid rgb(36, 39, 44) 0.5px;
+    background-color: rgb(36, 39, 44);
+    height: 48px;
+    width: 60px;
+}
+
+.stack3 button svg{
+    fill:white;
+}
+
+.stack3 svg{
+    margin-top: 2px;
+}
+
+.stack3{
+    width: 406.66px;
+    margin-top: 10px;
+    padding-top: 2px;
+    height: 25.8px;
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-evenly;
+}
+
+.stack1 #logo{
+    margin-top: 7px;
+    height: 42px;
+    width: 174px;
+
+}
+
+
+.stack3 .language a{
+    font-size: small;
+    color: #584e53;
+    text-decoration: underline;
+}
+
+.stack3 .login{
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stack3 .login svg{
+    height: 15px;
+}
+
+.stack3 .language svg{
+    height: 10px;
+}
+
